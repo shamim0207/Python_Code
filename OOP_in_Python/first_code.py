@@ -1,15 +1,23 @@
-class student_info:
-    def __init__(self,name,id,dept):
-        self.name=name
-        self.id=id
-        self.dept=dept
+class student:
+    #constructor
+    def __init__(self, name, id, age):
+        self.name = name
+        self.id = id
+        self.age = age
+        print(f"My name is {name} and my student Id is {id} and lastly my age is {age}")
         
+    #method
+    def Information(self):
+        print(f"name: {self.name}  ID: {self.id}")
 
 #==============================================================
 
 
-stu1=student_info("bob", 112230205, "cse")
-stu2=student_info("carrol", 112230207, "cse")
+student_01 = student("shamim", "0112230207", 25)
+print(student_01)
 
-print(stu1.name,stu1.id,stu1.dept)
-print(stu2.name,stu2.id,stu2.dept)
+student_02=student("tahsan","0112230208",25)
+print(student_02)
+
+#method call
+student_01.Information()
