@@ -1,0 +1,4 @@
+this is a sample file
+for demo of 
+file i/o in python
+programming language
