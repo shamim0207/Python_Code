@@ -1,0 +1,10 @@
+{
+    "name":"shamim",
+    "Subject":"AI/ML",
+    "isStudent":true,
+    "address":{
+        "city":"dhaka",
+        "area":"badda"
+
+    }
+}
